@@ -8,10 +8,12 @@ ivc is a small Python module to compute the Instantaneous Visual Change of video
 
 - python 2.7+
 - numpy
-- ffmpeg
-- OpenCV3
+- [ffmpeg](https://ffmpeg.org/download.html)
+- [OpenCV3](http://opencv.org/releases.html)
 
-Only tested with python 2.7, but it should work with few or no changes in python 3+.
+Only tested with python 2.7, but it should also work python 3+.
+
+OpenCV must be installed using the `--with-ffmpeg` option.
 
 To install OpenCV3 on a Mac:
 ```
