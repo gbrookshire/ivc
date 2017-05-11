@@ -4,9 +4,13 @@ ivc is a small Python module to compute the Instantaneous Visual Change of video
 
 Described in: Brookshire, Lu, Nusbaum, Goldin-Meadow, Casasanto (In Press) Visual cortex entrains to sign language. *Proceedings of the National Academy of Sciences*.
 
-## Algorithm
+
+# Algorithm
+The IVC represents a time-series of aggregated visual change between video frames, and is computed as the sum of squared differences in each pixel across sequential frames:
 
 ![alt text](https://github.com/gbrookshire/ivc/blob/master/ivc-eq.png "IVC")
+
+where *x* is the grayscale value of pixel *i* at time *t*.
 
 
 # Requiements
@@ -24,6 +28,7 @@ To install OpenCV3 on a Mac:
 ```
 brew install opencv3 --with-ffmpeg
 ```
+
 
 # Usage
 
