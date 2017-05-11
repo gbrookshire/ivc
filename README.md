@@ -2,7 +2,11 @@
 
 ivc is a small Python module to compute the Instantaneous Visual Change of videos.
 
-++++ CITATION
+Described in: Brookshire, Lu, Nusbaum, Goldin-Meadow, Casasanto (In Press) Visual cortex entrains to sign language. *Proceedings of the National Academy of Sciences*.
+
+## Algorithm
+
+![IVC](ivc_eq.png)
 
 # Requiements
 
@@ -25,3 +29,5 @@ brew install opencv3 --with-ffmpeg
 ivc can either be imported into python or run in the terminal:
 `python ivc.py <input_filename>`.
 Calling the `ivc.py` directly will save a file with the same name as the video, replacing the suffix with `.csv`.
+
+This module includes functions to compute the IVC over an array of video frames, and over

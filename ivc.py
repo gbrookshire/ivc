@@ -40,7 +40,8 @@ def ivc_from_array(video_frames):
 
     video_frames: a 3-D array of greyscale video (time * width * height)
     """
-    x = np.sum(np.diff(video_frames, axis=0) ** 2, axis=(1,2))
+    x = np.sum(np.diff(np.int64(video_frames), axis=0) ** 2, axis=(1,2))
+    # Convert to int64 to avoid overflow
     x = np.append(0, x) # Make x the same length as the video
     return x
 
