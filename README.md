@@ -6,8 +6,8 @@ Described in: Brookshire, Lu, Nusbaum, Goldin-Meadow, Casasanto (In Press) Visua
 
 ## Algorithm
 
-![IVC](/ivc_eq.png)
-Format: ![Alt Text](url)
+![alt text](https://github.com/gbrookshire/ivc/blob/master/ivc-eq.png "IVC")
+
 
 # Requiements
 
