@@ -13,14 +13,16 @@ Install OpenCV3 (much faster than v2) with ffmpeg enabled.
 On Mac, download using Homebrew: brew install opencv3 --with-ffmpeg
 """
 
+from __future__ import print_function
+
 __author__ = 'Geoffrey Brookshire'
 __email__ = "geoff.brookshire@gmail.com"
 __license__ = "MIT"
 
-from __future__ import print_function
-import warnings
 import numpy as np
 import cv2
+
+import warnings
 if cv2.__version__ < '3.0':
     warnings.warn('This code will run much faster if you upgrade to OpenCV 3.')
 
