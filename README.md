@@ -2,8 +2,8 @@
 
 ivc is a small Python module to compute the Instantaneous Visual Change of videos.
 
-Described in: Brookshire, Lu, Nusbaum, Goldin-Meadow, Casasanto (In Press) Visual cortex entrains to sign language. *Proceedings of the National Academy of Sciences*.
-
+For a description and an example of how it's used, see this paper:
+[Brookshire, G., Lu, J., Nusbaum, H. C., Goldin-Meadow, S., & Casasanto, D. (2017). Visual cortex entrains to sign language. *Proceedings of the National Academy of Sciences, 114*(24), 6352-6357.](https://www.pnas.org/content/114/24/6352.full)
 
 # Algorithm
 The IVC represents a time-series of aggregated visual change between video frames, and is computed as the sum of squared differences in each pixel across sequential frames:
